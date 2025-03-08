@@ -121,7 +121,7 @@
             <c:forEach var="product" items="${products}">
 	            <div class="bg-white shadow-lg rounded-lg overflow-hidden hover:scale-105 transition">
 	                <img src="assets/products/${product.fileName}" alt="Product 1" class="w-full h-52 object-cover">
-	                <div class="p-4">
+	                <div class="p-4">	
 	                    <h3 class="text-lg font-semibold text-gray-800">${product.title}</h3>
 	                    <p class="text-blue-500 font-bold mt-1">$${product.price}</p>
 	                    <button class="mt-3 bg-blue-500 text-white px-4 py-2 rounded-lg w-full hover:bg-blue-600 transition">
